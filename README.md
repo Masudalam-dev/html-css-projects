@@ -7,11 +7,9 @@ The goal is to strengthen my fundamentals and improve my frontend skills through
 ## Technologies Used
 * HTML5
 * CSS3
----
 
 ## 🎯 Goal
 To become better at web design by building real projects and learning step by step.
----
 
 ## 🤝 Feedback
 Any suggestions or feedback are welcome!
