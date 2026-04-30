@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 400px;
+    width: 60%;
+}
+
+.saffron {
+    background-color: #FF6820;
+    height: 33%;
+    width: 100%;
+}
+
+.white {
+    background-color: white;
+    height: 33%;
+    width: 100%;
+}
+
+.white > .ashoka-chakra {
+    height: 90%;
+    text-align: center;
+
+}
+
+.white img {
+    height: 100%;
+    margin-top: 6px;
+}
+.indian-green {
+    background-color: rgb(3, 81, 3);
+    height: 33%;
+    width: 100%;
+}
