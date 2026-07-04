@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM-ITCSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons"/>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
     <header class="header">
         <div class="l-container">
 
-            <div class="logo"></div>
+            <div class="logo">
+                <img src="./img/Untitled design (2).png" alt="">
+            </div>
 
             <form class="search">
-                <input class="search__input" type="text">
-                <button class="btn btn--primary"></button>
+                <input class="search__input" type="text" placeholder="Search...">
+                <button class="btn btn--primary"><i class="material-icons">search</i></button>
             </form>
 
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"></li>
-                    <li class="nav__item"></li>
-                    <li class="nav__item"></li>
+                    <li class="nav__item"><a href="#">Home</a></li>
+                    <li class="nav__item"><a href="#">About</a></li>
+                    <li class="nav__item"><a href="#">Services</a></li>
+                    <li class="nav__item"><a href="#">Videos</a></li>
                 </ul>  
             </nav>
 
