@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrain</title>
+
+     <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .container {
+            width: 40%;
+            height: 80vh;
+            display: grid;
+            grid-template-rows: 1fr 1.5fr 0.5fr 0.5fr;
+            grid-template-columns: 1fr 2fr 0.5fr;
+            gap: 10px;
+            background-color: black;
+    
+        }
+      
+        .cards {
+            background-color: #EAE8E9;
+        }
+
+        #item-2 {
+            background-color: #DC251E;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        #item-4 {
+            background-color: #015A9C;
+            grid-row: span 2;
+        }
+
+        #item-5 {
+            grid-row: span 2;
+        }
+
+        #item-7 {
+            background-color: #ECDA6A;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container"> 
+        <div id="item-1" class="cards"></div>
+        <div id="item-2" class="cards"></div>
+        <div id="item-3" class="cards"></div>
+        <div id="item-4" class="cards"></div>
+        <div id="item-5" class="cards"></div>
+        <div id="item-6" class="cards"></div>
+        <div id="item-7" class="cards"></div>
+    </div>
+</body>
+</html>
