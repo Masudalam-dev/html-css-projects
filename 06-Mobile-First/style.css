@@ -1,3 +1,12 @@
+:root {
+    --primary-color: rgb(240, 233, 233);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 #header {
     width: 94%;
     margin: auto;
@@ -5,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-color);
 }
 
 .hero-section {
@@ -16,9 +26,39 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 #header > p {
     padding: 1rem;
 }
 
+#main {
+    width: 94%;
+    margin: 10px auto;
+    display: flex;
+    gap: 1rem;
+}
+
+#section {
+    flex: 1;
+}
+
+#aside {
+    padding: 1rem;
+    width: 100px;
+    max-height: 400px;
+    background-color: seashell;
+    
+}
+
+.img-card {
+    padding: 1rem;
+    background-color: seashell;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    aspect-ratio: 16/9;
+}
